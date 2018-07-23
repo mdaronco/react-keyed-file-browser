@@ -718,7 +718,7 @@ class RawFileBrowser extends React.Component {
 }
 
 @DragDropContext(HTML5Backend)
-class FileBrowser extends RawFileBrowser {}
+class FileBrowser extends RawFileBrowser {} // eslint-disable-line
 
 export default FileBrowser
 export { RawFileBrowser }
